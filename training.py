@@ -6,6 +6,7 @@ import torchvision.transforms as transforms
 from torchvision.datasets import ImageFolder
 import timm
 
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -117,4 +118,3 @@ for epoch in range(num_epochs):
 
   print(f"Epoch {epoch+1}/{num_epochs} - Train loss: {training_loss}, Valid Loss: {val_loss}")
 
-  
