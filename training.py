@@ -118,3 +118,8 @@ for epoch in range(num_epochs):
 
   print(f"Epoch {epoch+1}/{num_epochs} - Train loss: {training_loss}, Valid Loss: {val_loss}")
 
+plt.plot(training_losses, label='Training loss')
+plt.plot(val_losses, label='Validation loss')
+plt.legend()
+plt.title("Loss over epochs")
+plt.show()
