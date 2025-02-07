@@ -1,9 +1,6 @@
-nvidia-pyindex
-nvidia-cuda-runtime-cu12
-nvidia-cuda-toolkit
-torch==2.0.1+cu126
-torchvision==0.15.1+cu126
-torchaudio==2.0.1+cu126
+torch
+torchvision
+torchaudio
 timm
 pandas
 matplotlib
