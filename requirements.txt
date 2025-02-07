@@ -1,5 +1,9 @@
 torch==2.0.1+cu126
 torchvision==0.15.1+cu126
 torchaudio==2.0.1+cu126
-pandas
 timm
+pandas
+matplotlib
+numpy
+tqdm
+Pillow
